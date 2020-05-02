@@ -13,6 +13,7 @@
 		79C31063245DC30C0048CC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C31061245DC30C0048CC8A /* Main.storyboard */; };
 		79C31065245DC3100048CC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C31064245DC3100048CC8A /* Assets.xcassets */; };
 		79C31068245DC3100048CC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C31066245DC3100048CC8A /* LaunchScreen.storyboard */; };
+		79C31071245DC5390048CC8A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C31070245DC5390048CC8A /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		79C31064245DC3100048CC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C31067245DC3100048CC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C31069245DC3100048CC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C31070245DC5390048CC8A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C31071245DC5390048CC8A /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				79C3105A245DC30C0048CC8A /* PracticeWithBiomethricAuth */,
 				79C31059245DC30C0048CC8A /* Products */,
+				79C3106F245DC5390048CC8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				79C31069245DC3100048CC8A /* Info.plist */,
 			);
 			path = PracticeWithBiomethricAuth;
+			sourceTree = "<group>";
+		};
+		79C3106F245DC5390048CC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C31070245DC5390048CC8A /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
